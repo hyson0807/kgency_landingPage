@@ -76,7 +76,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h3 className="text-xl font-bold mb-2">케이전시</h3>
+          <h3 className="text-xl font-bold mb-2">링크잡</h3>
           <p className="text-base text-gray-400 mb-6">
             소통 걱정 없는 외국인 채용 플랫폼
           </p>
@@ -111,7 +111,7 @@ export default function App() {
           </div>
           
           <p className="text-sm text-gray-500">
-            © 2024 케이전시. All rights reserved.
+            © 2024 링크잡. All rights reserved.
           </p>
         </div>
       </footer>

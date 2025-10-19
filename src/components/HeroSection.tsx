@@ -1,4 +1,5 @@
-import exampleImage from 'figma:asset/e72aebdac3000f8ee9b3196d73c357a45ce4c13a.png';
+// @ts-ignore
+import exampleImage from '../assets/e72aebdac3000f8ee9b3196d73c357a45ce4c13a.png';
 import { Play, Apple, FileText } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
@@ -41,9 +42,9 @@ export function HeroSection() {
           <div className="text-center lg:text-left">
             {/* Logo */}
             <div className="flex justify-center lg:justify-start mb-8">
-              <img 
-                src={exampleImage} 
-                alt="케이전시 로고" 
+              <img
+                src={exampleImage}
+                alt="링크잡 로고"
                 className="w-20 h-20 rounded-3xl shadow-lg"
               />
             </div>
@@ -57,7 +58,7 @@ export function HeroSection() {
 
             {/* Subheading */}
             <p className="text-3xl font-bold text-blue-500 mb-8">
-              K-gency
+              LinkJob
             </p>
 
             {/* Description */}
@@ -69,8 +70,8 @@ export function HeroSection() {
 
             {/* Primary CTA - Free Job Posting Button */}
             <div className="flex justify-center lg:justify-start mb-6">
-              <a 
-                href="https://kgency.co.kr"
+              <a
+                href="https://linkjob.kr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-500 text-white py-4 px-8 rounded-xl font-bold text-xl flex items-center gap-3 shadow-lg hover:bg-blue-600 transition-colors"

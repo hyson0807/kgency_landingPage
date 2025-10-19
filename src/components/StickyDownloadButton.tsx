@@ -21,7 +21,7 @@ export function StickyDownloadButton() {
     <div className="fixed bottom-4 left-4 right-4 z-50 max-w-sm mx-auto">
       <div className="bg-blue-500 text-white p-4 rounded-2xl shadow-lg flex items-center justify-between">
         <div className="flex-1">
-          <p className="font-bold text-sm mb-1">케이전시 앱 다운로드</p>
+          <p className="font-bold text-sm mb-1">링크잡 앱 다운로드</p>
           <p className="text-xs opacity-90">지금 바로 시작하세요!</p>
         </div>
         <div className="flex items-center gap-2 ml-4">

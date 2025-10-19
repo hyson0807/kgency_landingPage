@@ -4,4 +4,4 @@ Allow: /
 User-agent: Yeti
 Allow: /
 
-Sitemap: https://www.kgency.kr/sitemap.xml
+Sitemap: https://www.linkjob.kr/sitemap.xml

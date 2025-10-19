@@ -4,7 +4,7 @@
 
 ## 프로젝트 개요
 
-**kgency_landingPage**는 외국인 구인구직 플랫폼 kgency의 랜딩 페이지입니다.
+**kgency_landingPage**는 외국인 구인구직 플랫폼 링크잡(LinkJob)의 랜딩 페이지입니다.
 
 ## 기술 스택
 
@@ -39,7 +39,7 @@ src/
 
 - 반응형 디자인 (모바일/태블릿/데스크톱)
 - 다크모드 토글
-- kgency.co.kr 웹사이트 연결
+- linkjob.kr 웹사이트 연결
 - 앱스토어/플레이스토어 다운로드 링크
 - Footer에 정책/약관 페이지 링크
 
@@ -72,7 +72,7 @@ src/
 
 ## 외부 링크
 
-- **웹사이트**: kgency.co.kr
+- **웹사이트**: linkjob.kr
 - **iOS 앱**: App Store 링크
 - **Android 앱**: Google Play Store 링크
 
@@ -85,9 +85,9 @@ src/
 
 ## Footer 정책 페이지
 
-기존 kgency 앱의 랜딩 페이지 정책들을 포함:
+기존 링크잡 앱의 랜딩 페이지 정책들을 포함:
 - 계정삭제 (account-deletion)
-- 문의 (contact)  
+- 문의 (contact)
 - FAQ (faq)
 - 개인정보처리방침 (privacy-policy)
 - 환불정책 (refund-policy)

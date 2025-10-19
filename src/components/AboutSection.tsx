@@ -1,7 +1,7 @@
-import teamImage from 'figma:asset/b1a03545d8b1a78b2101d56eca5bad436dd36ac1.png';
-import teamImage2 from 'figma:asset/eda5b4ca41545e5031e1543ad8007bb8fa06351e.png';
-import teamImage3 from 'figma:asset/e8c74e25eb2886e3cfcdab4a4db83fcd7b268010.png';
-import teamImage4 from 'figma:asset/1d6322db6f43474385c0ff6df442f76405e8608c.png';
+import teamImage from '../assets/b1a03545d8b1a78b2101d56eca5bad436dd36ac1.png';
+import teamImage2 from '../assets/eda5b4ca41545e5031e1543ad8007bb8fa06351e.png';
+import teamImage3 from '../assets/e8c74e25eb2886e3cfcdab4a4db83fcd7b268010.png';
+import teamImage4 from '../assets/1d6322db6f43474385c0ff6df442f76405e8608c.png';
 import { CheckCircle, Target, Users, Zap, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 
@@ -9,10 +9,10 @@ export function AboutSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const teamImages = [
-    { src: teamImage, alt: "케이전시 팀 미팅" },
-    { src: teamImage2, alt: "케이전시 교육 세션" },
-    { src: teamImage3, alt: "케이전시 팀 워크숍" },
-    { src: teamImage4, alt: "케이전시 팀 협업" }
+    { src: teamImage, alt: "링크잡 팀 미팅" },
+    { src: teamImage2, alt: "링크잡 교육 세션" },
+    { src: teamImage3, alt: "링크잡 팀 워크숍" },
+    { src: teamImage4, alt: "링크잡 팀 협업" }
   ];
 
   const nextImage = () => {
@@ -45,7 +45,7 @@ export function AboutSection() {
           </h3>
           <div className="max-w-4xl mx-auto">
             <p className="text-base text-gray-700 mb-4 leading-relaxed text-center">
-              케이전시는 미국, 호주, 캐나다, 필리핀 등 글로벌 무대에서의 누적 15년 경력을 가진 젊은 창업팀이 이끌고 있습니다.
+              링크잡은 미국, 호주, 캐나다, 필리핀 등 글로벌 무대에서의 누적 15년 경력을 가진 젊은 창업팀이 이끌고 있습니다.
             </p>
             
             <div className="grid md:grid-cols-3 gap-6 my-8">
