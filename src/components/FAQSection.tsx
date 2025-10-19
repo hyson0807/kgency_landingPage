@@ -44,7 +44,7 @@ export function FAQSection() {
             자주 묻는 질문
           </h2>
           <p className="text-base text-gray-700">
-            케이전시에 대해 궁금한 점들을 확인해보세요
+            링크잡에 대해 궁금한 점들을 확인해보세요
           </p>
         </div>
 

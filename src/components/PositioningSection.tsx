@@ -25,7 +25,7 @@ export function PositioningSection() {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            왜 케이전시인가요?
+            왜 링크잡인가요?
           </h2>
           <p className="text-base text-gray-700 max-w-2xl mx-auto">
             <strong>공고등록 무료</strong>로 시작하여 <strong>한국어 가능한 외국인</strong>만 만나고<br />

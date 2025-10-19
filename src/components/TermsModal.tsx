@@ -12,7 +12,7 @@ export function TermsModal({ open, onOpenChange, type }: TermsModalProps) {
     switch (type) {
       case 'terms':
         return {
-          title: "케이전시 서비스 이용약관",
+          title: "링크 서비스 이용약관",
           content: (
             <div className="space-y-6 text-sm leading-relaxed">
               <p>본 약관은 웰킷 ( welkit )(이하 "회사")가 제공하는 구인구직 매칭 서비스(이하 "서비스")의 이용과 관련하여 회사와 이용자간의 권리, 의무 및 책임사항을 규정함을 목적으로 합니다.</p>
@@ -203,12 +203,12 @@ export function TermsModal({ open, onOpenChange, type }: TermsModalProps) {
           title: "환불정책",
           content: (
             <div className="space-y-6 text-sm leading-relaxed">
-              <p>웰킷 ( welkit ) (이하 "회사")가 제공하는 케이전시 서비스의 환불 정책을 다음과 같이 안내합니다.</p>
+              <p>웰킷 ( welkit ) (이하 "회사")가 제공하는 링크 서비스의 환불 정책을 다음과 같이 안내합니다.</p>
               
               <div>
                 <h2 className="text-xl font-bold mb-3">제1조 (적용범위)</h2>
-                <p>본 환불정책은 케이전시 플랫폼에서 제공하는 유료 서비스에 적용됩니다.</p>
-                <p>1. 현재 케이전시는 공고 등록을 무료로 제공하고 있습니다.</p>
+                <p>본 환불정책은 링크 플랫폼에서 제공하는 유료 서비스에 적용됩니다.</p>
+                <p>1. 현재 링크잡은 공고 등록을 무료로 제공하고 있습니다.</p>
                 <p>2. 향후 추가될 수 있는 프리미엄 서비스에 대해서는 별도 안내할 예정입니다.</p>
               </div>
 
@@ -291,7 +291,7 @@ export function TermsModal({ open, onOpenChange, type }: TermsModalProps) {
           {content}
           <div className="mt-12 text-center">
             <p className="text-gray-500">
-              © 2024 케이전시. All rights reserved.
+              © 2024 linkjob. All rights reserved.
             </p>
           </div>
         </ScrollArea>

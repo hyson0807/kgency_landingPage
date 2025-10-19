@@ -152,7 +152,7 @@ export function AboutSection() {
           </h3>
           <div className="max-w-4xl mx-auto">
             <p className="text-base text-gray-700 mb-4 leading-relaxed text-center">
-              케이전시는 한국에서 일하고 싶은 외국인과 인재난을 겪는 기업을 연결하는 새로운 채용 플랫폼입니다.
+              링크잡은 한국에서 일하고 싶은 외국인과 인재난을 겪는 기업을 연결하는 새로운 채용 플랫폼입니다.
             </p>
             <p className="text-base text-gray-700 mb-4 leading-relaxed text-center">
               우리는 단순한 구인구직 중개가 아니라, <strong>"언어 소통 문제"</strong>라는 본질적인 장벽을 해결하는 데 집중합니다.
@@ -169,7 +169,7 @@ export function AboutSection() {
         {/* Value Section */}
         <div className="bg-blue-50 rounded-3xl p-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-            케이전시가 제공하는 가치
+            링크잡이 제공하는 가치
           </h3>
           
           <div className="space-y-6 max-w-4xl mx-auto">
@@ -200,7 +200,7 @@ export function AboutSection() {
 
           <div className="mt-8 text-center">
             <p className="text-lg text-gray-800">
-              👉 <strong>케이전시는 단순한 채용 플랫폼이 아니라,</strong><br />
+              👉 <strong>링크잡은 단순한 채용 플랫폼이 아니라,</strong><br />
               <strong>글로벌 경험을 가진 팀이 직접 만든, 외국인과 한국 사회를 잇는 다리입니다.</strong>
             </p>
           </div>
