@@ -1,6 +1,6 @@
 // @ts-ignore
 import exampleImage from '../assets/e72aebdac3000f8ee9b3196d73c357a45ce4c13a.png';
-import { Play, Apple, FileText } from 'lucide-react';
+import { Play, Apple } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export function HeroSection() {
@@ -40,15 +40,6 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            {/* Logo */}
-            <div className="flex justify-center lg:justify-start mb-8">
-              <img
-                src={exampleImage}
-                alt="링크잡 로고"
-                className="w-20 h-20 rounded-3xl shadow-lg"
-              />
-            </div>
-
             {/* Main Heading */}
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
               소통 걱정 끝!<br />
@@ -56,10 +47,27 @@ export function HeroSection() {
               채용하세요
             </h1>
 
-            {/* Subheading */}
-            <p className="text-3xl font-bold text-blue-500 mb-8">
-              LinkJob
-            </p>
+            {/* Logo */}
+            <div className="flex justify-center lg:justify-start mb-4">
+              <img
+                src={exampleImage}
+                alt="링크잡 로고"
+                className="w-20 h-20 rounded-3xl shadow-lg"
+              />
+            </div>
+
+            {/* App Name - English & Korean */}
+            <div className="mb-8">
+              <div className="flex items-center justify-center lg:justify-start gap-3">
+                <h2 className="text-2xl font-bold text-blue-500">
+                  LinkJob
+                </h2>
+                <span className="text-blue-300">•</span>
+                <h2 className="text-2xl font-bold text-blue-500">
+                  링크잡
+                </h2>
+              </div>
+            </div>
 
             {/* Description */}
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -68,37 +76,24 @@ export function HeroSection() {
               <strong>사진으로 인상까지</strong> 미리 본 뒤 채용하세요!
             </p>
 
-            {/* Primary CTA - Free Job Posting Button */}
-            <div className="flex justify-center lg:justify-start mb-6">
+            {/* App Download Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-stretch">
               <a
-                href="https://linkjob.kr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-500 text-white py-4 px-8 rounded-xl font-bold text-xl flex items-center gap-3 shadow-lg hover:bg-blue-600 transition-colors"
-              >
-                <FileText size={24} />
-                무료 공고 등록하기
-              </a>
-            </div>
-
-            {/* Secondary - App Download Buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start items-center">
-              <a 
                 href="https://apps.apple.com/kr/app/kgency-%EC%BC%80%EC%9D%B4%EC%A0%84%EC%8B%9C-%EC%99%B8%EA%B5%AD%EC%9D%B8-%EA%B5%AC%EC%9D%B8%EA%B5%AC%EC%A7%81-%EC%95%8C%EB%B0%94/id6749147143"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-blue-500 py-3 px-6 rounded-xl font-medium text-base flex items-center gap-2 shadow-md hover:bg-gray-50 transition-colors border border-blue-200 min-w-[160px]"
+                className="bg-blue-500 text-white py-4 px-8 rounded-xl font-bold text-xl flex items-center justify-center gap-3 shadow-lg hover:bg-blue-600 transition-colors w-full sm:w-[220px]"
               >
-                <Apple size={20} />
+                <Apple size={24} />
                 App Store
               </a>
-              <a 
+              <a
                 href="https://play.google.com/store/apps/details?id=com.welkit.kgency"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white text-blue-500 py-3 px-6 rounded-xl font-medium text-base flex items-center gap-2 shadow-md hover:bg-gray-50 transition-colors border border-blue-200 min-w-[160px]"
+                className="bg-blue-500 text-white py-4 px-8 rounded-xl font-bold text-xl flex items-center justify-center gap-3 shadow-lg hover:bg-blue-600 transition-colors w-full sm:w-[220px]"
               >
-                <Play size={20} />
+                <Play size={24} />
                 Google Play
               </a>
             </div>
