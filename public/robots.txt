@@ -1,7 +1,23 @@
+# 모든 검색 엔진 허용
 User-agent: *
 Allow: /
 
+# 구글봇 (명시적 허용)
+User-agent: Googlebot
+Allow: /
+
+# 네이버 검색봇
 User-agent: Yeti
 Allow: /
 
+# 다음 검색봇
+User-agent: Daumoa
+Allow: /
+
+# 빙 검색봇
+User-agent: Bingbot
+Allow: /
+
+# 사이트맵 위치
+Sitemap: https://linkjob.kr/sitemap.xml
 Sitemap: https://www.linkjob.kr/sitemap.xml
