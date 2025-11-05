@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-
-User-agent: Yeti
-Allow: /
-
-Sitemap: https://www.linkjob.kr/sitemap.xml
