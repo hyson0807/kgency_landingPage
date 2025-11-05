@@ -90,24 +90,32 @@ export default function App() {
           
           {/* Terms Links */}
           <div className="flex justify-center gap-6 mb-4">
-            <button 
+            <button
               onClick={() => openTermsModal('terms')}
               className="text-sm text-gray-400 hover:text-white transition-colors underline"
             >
               이용약관
             </button>
-            <button 
+            <button
               onClick={() => openTermsModal('privacy')}
               className="text-sm text-gray-400 hover:text-white transition-colors underline"
             >
               개인정보처리방침
             </button>
-            <button 
+            <button
               onClick={() => openTermsModal('refund')}
               className="text-sm text-gray-400 hover:text-white transition-colors underline"
             >
               환불정책
             </button>
+            <a
+              href="https://m.blog.naver.com/young_1010-?tab=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gray-400 hover:text-white transition-colors underline"
+            >
+              블로그
+            </a>
           </div>
           
           <p className="text-sm text-gray-500">

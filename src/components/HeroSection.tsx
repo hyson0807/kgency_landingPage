@@ -1,4 +1,3 @@
-// @ts-ignore
 import exampleImage from '../assets/e72aebdac3000f8ee9b3196d73c357a45ce4c13a.png';
 import { Play, Apple } from 'lucide-react';
 import { useState, useEffect } from 'react';
