@@ -1,4 +1,4 @@
-import teamImage from '../assets/b1a03545d8b1a78b2101d56eca5bad436dd36ac1.png';
+import teamImage from '../assets/Gemini_Generated_Image_c3jrurc3jrurc3jr.png';
 import teamImage2 from '../assets/eda5b4ca41545e5031e1543ad8007bb8fa06351e.png';
 import teamImage3 from '../assets/e8c74e25eb2886e3cfcdab4a4db83fcd7b268010.png';
 import teamImage4 from '../assets/1d6322db6f43474385c0ff6df442f76405e8608c.png';
